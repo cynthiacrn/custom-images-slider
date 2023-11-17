@@ -1,6 +1,6 @@
 import './tailwind.css';
 import { useState } from "react";
-import { useHorizontalScroll } from "./utils/useSlideScroll";
+import { useHorizontalScroll } from "./hooks/useHorizontalScroll";
 
 function App() {
   const sliderRef = useHorizontalScroll();
